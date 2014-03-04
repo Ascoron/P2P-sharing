@@ -21,6 +21,12 @@
 		031BC42818A3C4FE000C2203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031BC40A18A3C4FE000C2203 /* UIKit.framework */; };
 		031BC43018A3C4FE000C2203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 031BC42E18A3C4FE000C2203 /* InfoPlist.strings */; };
 		031BC43218A3C4FE000C2203 /* p2p_share_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 031BC43118A3C4FE000C2203 /* p2p_share_testTests.m */; };
+		031BC43C18A3C59F000C2203 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031BC43B18A3C59F000C2203 /* MultipeerConnectivity.framework */; };
+		031BC43E18A3D789000C2203 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031BC43D18A3D789000C2203 /* AVFoundation.framework */; };
+		031BC55F18A3E88F000C2203 /* GoogleTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = 031BC55E18A3E88F000C2203 /* GoogleTTS.m */; };
+		031BC56118A3E8A2000C2203 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031BC56018A3E8A2000C2203 /* AudioToolbox.framework */; };
+		03A666E118A4E0BF00984A0D /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03A666E018A4E0BF00984A0D /* beep.mp3 */; };
+		03A666E318A4E0E300984A0D /* PostScript.ps in Resources */ = {isa = PBXBuildFile; fileRef = 03A666E218A4E0E300984A0D /* PostScript.ps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		031BC42D18A3C4FE000C2203 /* p2p_share_testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p2p_share_testTests-Info.plist"; sourceTree = "<group>"; };
 		031BC42F18A3C4FE000C2203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		031BC43118A3C4FE000C2203 /* p2p_share_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p2p_share_testTests.m; sourceTree = "<group>"; };
+		031BC43B18A3C59F000C2203 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		031BC43D18A3D789000C2203 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		031BC55D18A3E88F000C2203 /* GoogleTTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTTS.h; sourceTree = "<group>"; };
+		031BC55E18A3E88F000C2203 /* GoogleTTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTTS.m; sourceTree = "<group>"; };
+		031BC56018A3E8A2000C2203 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03A666E018A4E0BF00984A0D /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		03A666E218A4E0E300984A0D /* PostScript.ps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PostScript.ps; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031BC56118A3E8A2000C2203 /* AudioToolbox.framework in Frameworks */,
+				031BC43E18A3D789000C2203 /* AVFoundation.framework in Frameworks */,
+				031BC43C18A3C59F000C2203 /* MultipeerConnectivity.framework in Frameworks */,
 				031BC40918A3C4FE000C2203 /* CoreGraphics.framework in Frameworks */,
 				031BC40B18A3C4FE000C2203 /* UIKit.framework in Frameworks */,
 				031BC40718A3C4FE000C2203 /* Foundation.framework in Frameworks */,
@@ -101,6 +117,11 @@
 		031BC40518A3C4FE000C2203 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				031BC56018A3E8A2000C2203 /* AudioToolbox.framework */,
+				031BC55D18A3E88F000C2203 /* GoogleTTS.h */,
+				031BC55E18A3E88F000C2203 /* GoogleTTS.m */,
+				031BC43D18A3D789000C2203 /* AVFoundation.framework */,
+				031BC43B18A3C59F000C2203 /* MultipeerConnectivity.framework */,
 				031BC40618A3C4FE000C2203 /* Foundation.framework */,
 				031BC40818A3C4FE000C2203 /* CoreGraphics.framework */,
 				031BC40A18A3C4FE000C2203 /* UIKit.framework */,
@@ -126,6 +147,8 @@
 		031BC40D18A3C4FE000C2203 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03A666E218A4E0E300984A0D /* PostScript.ps */,
+				03A666E018A4E0BF00984A0D /* beep.mp3 */,
 				031BC40E18A3C4FE000C2203 /* p2p_share_test-Info.plist */,
 				031BC40F18A3C4FE000C2203 /* InfoPlist.strings */,
 				031BC41218A3C4FE000C2203 /* main.m */,
@@ -228,8 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A666E318A4E0E300984A0D /* PostScript.ps in Resources */,
 				031BC41F18A3C4FE000C2203 /* Images.xcassets in Resources */,
 				031BC41118A3C4FE000C2203 /* InfoPlist.strings in Resources */,
+				03A666E118A4E0BF00984A0D /* beep.mp3 in Resources */,
 				031BC41A18A3C4FE000C2203 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +276,7 @@
 			files = (
 				031BC41D18A3C4FE000C2203 /* ViewController.m in Sources */,
 				031BC41718A3C4FE000C2203 /* AppDelegate.m in Sources */,
+				031BC55F18A3E88F000C2203 /* GoogleTTS.m in Sources */,
 				031BC41318A3C4FE000C2203 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +363,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -370,18 +397,25 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 		031BC43618A3C4FE000C2203 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "p2p_share_test/p2p_share_test-Prefix.pch";
 				INFOPLIST_FILE = "p2p_share_test/p2p_share_test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Mac\\ Data/Work/For\\ projects/p2p_share_test",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +423,18 @@
 		031BC43718A3C4FE000C2203 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "p2p_share_test/p2p_share_test-Prefix.pch";
 				INFOPLIST_FILE = "p2p_share_test/p2p_share_test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Mac\\ Data/Work/For\\ projects/p2p_share_test",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +500,7 @@
 				031BC43718A3C4FE000C2203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		031BC43818A3C4FE000C2203 /* Build configuration list for PBXNativeTarget "p2p_share_testTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +509,7 @@
 				031BC43A18A3C4FE000C2203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

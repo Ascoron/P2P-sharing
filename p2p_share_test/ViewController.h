@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate, AVAudioPlayerDelegate, MCSessionDelegate, MCBrowserViewControllerDelegate, MCSessionDelegate, MCAdvertiserAssistantDelegate>
 
 @end

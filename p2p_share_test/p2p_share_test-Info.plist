@@ -33,8 +33,19 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+    <key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+            <key>CFBundleTypeName</key>
+            <string>ps</string>
+            <key>LSHandlerRank</key>
+            <string>Alternate</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.adobe.postscript</string>
+            </array>
+        </dict>
 	</array>
 </dict>
 </plist>
