@@ -10,7 +10,8 @@
 #import <MultipeerConnectivity/MultipeerConnectivity.h>
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
 
-@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate, AVAudioPlayerDelegate, MCSessionDelegate, MCBrowserViewControllerDelegate, MCSessionDelegate, MCAdvertiserAssistantDelegate>
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate, AVAudioPlayerDelegate, AVAudioRecorderDelegate, MCAdvertiserAssistantDelegate, MPMediaPickerControllerDelegate, NSStreamDelegate, MCSessionDelegate, MCBrowserViewControllerDelegate>
 
 @end

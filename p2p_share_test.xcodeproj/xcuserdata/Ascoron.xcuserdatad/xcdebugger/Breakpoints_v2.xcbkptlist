@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "p2p_share_test/ViewController.m"
-            timestampString = "413481562.246575"
+            filePath = "p2p_share_test/VideoCaptureViewController.m"
+            timestampString = "415628556.312377"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "343"
-            endingLineNumber = "343"
-            landmarkName = "-streamAudioButtonTouchUpInside:"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-session:didReceiveData:fromPeer:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "p2p_share_test/ViewController.m"
+            timestampString = "416394089.231554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "-session:didReceiveData:fromPeer:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
